@@ -78,7 +78,6 @@ body {
 }
 
 #im{
-
 margin-left: 100px;
 background-color: #000;
 }
@@ -92,7 +91,11 @@ background-color: #000;
     border-radius: 0;
 }
 #pic img:hover{
-    transform: scale(110%);
-    box-shadow:10px 10px 10px #ff0000;
+    box-shadow: 0 0 0 5px red;
+    transform: scale(110%); 
+    opacity:10;
+    border-radius:15%;
+    transition: 2s ease;
+   
 }
 
