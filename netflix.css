@@ -84,7 +84,7 @@ background-color: #000;
 
 
 .accordion-item:last-of-type .accordion-button.collapsed {
-     border-bottom-right-radius:  0;
+     border-bottom-right-radius:  100;
     border-bottom-left-radius: 0; 
 }
 .accordion-flush .accordion-item .accordion-button {
@@ -98,4 +98,4 @@ background-color: #000;
     transition: 2s ease;
    
 }
-
+
